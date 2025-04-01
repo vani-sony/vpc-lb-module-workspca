@@ -1,0 +1,12 @@
+region = "ap-south-1"
+vpccidr = "10.1.0.0/24"
+publicsubn1 = "10.1.0.0/26"
+publicsubn2 = "10.1.0.64/26"
+privatesubn1 = "10.1.0.128/26"
+privatesubn2 =  "10.1.0.192/26"
+publiroute = "0.0.0.0/0"
+privroute = "0.0.0.0/0"
+lbtype = "application"
+lt_type = "t2.micro"
+lt_amiid = "ami-076c6dbba59aa92e6"
+
